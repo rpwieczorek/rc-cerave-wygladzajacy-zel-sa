@@ -129,16 +129,16 @@ body {
     &__tile {
       width: 300px;
       height: 400px;
-      padding: 5%;
+      padding: 5% 3%;
       text-align: center;
       overflow: hidden;
       &--left {
-        background-color: #028f94;
-        padding-top: 100px;
+        background-color: $darkBlue;
+        padding-top: 80px;
       }
       &--right {
-        background-color: $darkBlue;
-        padding-top: 100px;
+        background-color: $lightBlue;
+        padding-top: 80px;
       }
       &--image {
         padding: 0;
@@ -161,19 +161,19 @@ body {
       @include text;
       color: #fff;
       font-weight: 300;
-      font-size: 13px;
+      font-size: 15px;
     }
     &__text {
       @include text;
       color: #fff;
       font-weight: 200;
-      font-size: 13px;
+      font-size: 15px;
       padding-top: 10px
     }
     &__image {
       @include img;
       padding: 15px;
-      width: 80px;
+      width: 100px;
     }
 
   }
