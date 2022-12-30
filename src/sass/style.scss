@@ -185,17 +185,17 @@ body {
     }
     &__tile {
       width: 305px;
-      height: 400px;
+      height: 393px;
       padding: 5% 3%;
       text-align: center;
       overflow: hidden;
       &--left {
-        background-color: $darkBlue;
+        background-color: $lightBlue;
         padding-top: 100px;
       }
       &--right {
         
-        background-color: #028f94;
+        background-color: $darkBlue;
         padding-top: 100px;
       }
       &--image {
