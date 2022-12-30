@@ -276,7 +276,15 @@ body {
     }
   }
   .es-ingriedients {
+    position: relative;
     padding: 0 35px;
+    &__bg {
+      position: absolute;
+      height: 300px;
+      z-index: 1;
+      right: 0;
+      top: 500px
+    }
     &__wrapper {
       display: flex;
       flex-wrap: wrap;
@@ -284,6 +292,7 @@ body {
     }
     &__tile {
       margin: auto;
+      z-index: 2;
     }
     &__title {
       z-index: 2;
@@ -470,6 +479,11 @@ body {
       max-height: 100% !important;
     }
   }
+  .es-ingriedients {
+    &__bg {
+      top: 30px !important;
+    }
+  }  
   .es-solution-2 {
     &__wrapper {
       flex-wrap: nowrap !important;
