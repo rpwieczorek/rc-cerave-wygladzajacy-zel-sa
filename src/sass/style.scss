@@ -231,6 +231,14 @@ body {
   }
   .es-icons {
     margin: 40px auto;
+    position: relative;
+    
+    &__bg {
+      position: absolute;
+      height: 270px;
+      z-index: 1;
+      top: 120px
+    }
     &__text {
       @include text;
       margin: 0 auto;
@@ -247,6 +255,7 @@ body {
       justify-content: space-around;
     }
     &__single {
+      z-index: 2;
       width: 140px;
       text-align: center;
       transition: all 0.3s;
@@ -277,6 +286,7 @@ body {
       margin: auto;
     }
     &__title {
+      z-index: 2;
       @include text;
       font-size: 30px;
       font-weight: 300;
